@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0775081B74D3590096CA76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0775071B74D3580096CA76 /* Default-568h@2x.png */; };
+		0B5BBB5D1B7C7060003F856D /* NSData+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB3B1B7C7060003F856D /* NSData+VLDValidation.m */; };
+		0B5BBB5E1B7C7060003F856D /* NSString+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB3D1B7C7060003F856D /* NSString+VLDValidation.m */; };
+		0B5BBB5F1B7C7060003F856D /* VLDCategoriesHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB401B7C7060003F856D /* VLDCategoriesHelpers.m */; };
+		0B5BBB601B7C7060003F856D /* VLDDateValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB441B7C7060003F856D /* VLDDateValidator.m */; };
+		0B5BBB611B7C7060003F856D /* VLDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB491B7C7060003F856D /* VLDTextField.m */; };
+		0B5BBB621B7C7060003F856D /* VLDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB4B1B7C7060003F856D /* VLDTextView.m */; };
+		0B5BBB631B7C7060003F856D /* VLDBoundaryCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB4E1B7C7060003F856D /* VLDBoundaryCharactersValidator.m */; };
+		0B5BBB641B7C7060003F856D /* VLDBoundaryNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB501B7C7060003F856D /* VLDBoundaryNumberValidator.m */; };
+		0B5BBB651B7C7060003F856D /* VLDEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB521B7C7060003F856D /* VLDEmailValidator.m */; };
+		0B5BBB661B7C7060003F856D /* VLDPhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB541B7C7060003F856D /* VLDPhoneNumberValidator.m */; };
+		0B5BBB671B7C7060003F856D /* VLDRegExpValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB561B7C7060003F856D /* VLDRegExpValidator.m */; };
+		0B5BBB681B7C7060003F856D /* VLDStrongPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BBB581B7C7060003F856D /* VLDStrongPasswordValidator.m */; };
+		0B5BBB6D1B7C8057003F856D /* ValidationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB5B1B7C7060003F856D /* ValidationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB6E1B7C8057003F856D /* VLDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB5C1B7C7060003F856D /* VLDHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB6F1B7C8057003F856D /* VLDCommonValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB421B7C7060003F856D /* VLDCommonValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB701B7C8057003F856D /* VLDValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB451B7C7060003F856D /* VLDValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB711B7C8057003F856D /* VLDDateValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB431B7C7060003F856D /* VLDDateValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB721B7C8057003F856D /* VLDTextValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB591B7C7060003F856D /* VLDTextValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB731B7C8057003F856D /* VLDTextValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB5A1B7C7060003F856D /* VLDTextValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB741B7C8057003F856D /* VLDBoundaryCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB4D1B7C7060003F856D /* VLDBoundaryCharactersValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB751B7C8057003F856D /* VLDBoundaryNumberValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB4F1B7C7060003F856D /* VLDBoundaryNumberValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB761B7C8057003F856D /* VLDEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB511B7C7060003F856D /* VLDEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB771B7C8057003F856D /* VLDPhoneNumberValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB531B7C7060003F856D /* VLDPhoneNumberValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB781B7C8057003F856D /* VLDRegExpValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB551B7C7060003F856D /* VLDRegExpValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB791B7C8057003F856D /* VLDStrongPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB571B7C7060003F856D /* VLDStrongPasswordValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7A1B7C8057003F856D /* VLDTextContainersValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB471B7C7060003F856D /* VLDTextContainersValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7B1B7C8057003F856D /* VLDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB481B7C7060003F856D /* VLDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7C1B7C8057003F856D /* VLDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB4A1B7C7060003F856D /* VLDTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7D1B7C8057003F856D /* VLDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB3E1B7C7060003F856D /* VLDCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7E1B7C8057003F856D /* NSData+VLDValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB3A1B7C7060003F856D /* NSData+VLDValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB7F1B7C8057003F856D /* NSString+VLDValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB3C1B7C7060003F856D /* NSString+VLDValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5BBB801B7C8057003F856D /* VLDCategoriesHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5BBB3F1B7C7060003F856D /* VLDCategoriesHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B3F41B7DCF49003DB0C0 /* libValidationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2673CD1B79F1AF0011CAFA /* libValidationKit.a */; };
+		0B78BA411B70ED3B001B10B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78BA401B70ED3B001B10B2 /* main.m */; };
+		0B78BA441B70ED3B001B10B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78BA431B70ED3B001B10B2 /* AppDelegate.m */; };
+		0B8D2A6F1B78FA9A006FB260 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D2A6E1B78FA9A006FB260 /* ExampleViewController.m */; };
+		0B8D2A721B78FAA6006FB260 /* ExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D2A711B78FAA6006FB260 /* ExampleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B66B3F51B7DCF51003DB0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B78BA331B70ED3B001B10B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2673CC1B79F1AF0011CAFA;
+			remoteInfo = ValidationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B2673CB1B79F1AF0011CAFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B0775071B74D3580096CA76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B2673CD1B79F1AF0011CAFA /* libValidationKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libValidationKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5BBB3A1B7C7060003F856D /* NSData+VLDValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+VLDValidation.h"; sourceTree = "<group>"; };
+		0B5BBB3B1B7C7060003F856D /* NSData+VLDValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+VLDValidation.m"; sourceTree = "<group>"; };
+		0B5BBB3C1B7C7060003F856D /* NSString+VLDValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VLDValidation.h"; sourceTree = "<group>"; };
+		0B5BBB3D1B7C7060003F856D /* NSString+VLDValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VLDValidation.m"; sourceTree = "<group>"; };
+		0B5BBB3E1B7C7060003F856D /* VLDCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDCategories.h; sourceTree = "<group>"; };
+		0B5BBB3F1B7C7060003F856D /* VLDCategoriesHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDCategoriesHelpers.h; sourceTree = "<group>"; };
+		0B5BBB401B7C7060003F856D /* VLDCategoriesHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDCategoriesHelpers.m; sourceTree = "<group>"; };
+		0B5BBB421B7C7060003F856D /* VLDCommonValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDCommonValidation.h; sourceTree = "<group>"; };
+		0B5BBB431B7C7060003F856D /* VLDDateValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDDateValidator.h; sourceTree = "<group>"; };
+		0B5BBB441B7C7060003F856D /* VLDDateValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDDateValidator.m; sourceTree = "<group>"; };
+		0B5BBB451B7C7060003F856D /* VLDValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDValidator.h; sourceTree = "<group>"; };
+		0B5BBB471B7C7060003F856D /* VLDTextContainersValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDTextContainersValidation.h; sourceTree = "<group>"; };
+		0B5BBB481B7C7060003F856D /* VLDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDTextField.h; sourceTree = "<group>"; };
+		0B5BBB491B7C7060003F856D /* VLDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDTextField.m; sourceTree = "<group>"; };
+		0B5BBB4A1B7C7060003F856D /* VLDTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDTextView.h; sourceTree = "<group>"; };
+		0B5BBB4B1B7C7060003F856D /* VLDTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDTextView.m; sourceTree = "<group>"; };
+		0B5BBB4D1B7C7060003F856D /* VLDBoundaryCharactersValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDBoundaryCharactersValidator.h; sourceTree = "<group>"; };
+		0B5BBB4E1B7C7060003F856D /* VLDBoundaryCharactersValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDBoundaryCharactersValidator.m; sourceTree = "<group>"; };
+		0B5BBB4F1B7C7060003F856D /* VLDBoundaryNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDBoundaryNumberValidator.h; sourceTree = "<group>"; };
+		0B5BBB501B7C7060003F856D /* VLDBoundaryNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDBoundaryNumberValidator.m; sourceTree = "<group>"; };
+		0B5BBB511B7C7060003F856D /* VLDEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDEmailValidator.h; sourceTree = "<group>"; };
+		0B5BBB521B7C7060003F856D /* VLDEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDEmailValidator.m; sourceTree = "<group>"; };
+		0B5BBB531B7C7060003F856D /* VLDPhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDPhoneNumberValidator.h; sourceTree = "<group>"; };
+		0B5BBB541B7C7060003F856D /* VLDPhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDPhoneNumberValidator.m; sourceTree = "<group>"; };
+		0B5BBB551B7C7060003F856D /* VLDRegExpValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDRegExpValidator.h; sourceTree = "<group>"; };
+		0B5BBB561B7C7060003F856D /* VLDRegExpValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDRegExpValidator.m; sourceTree = "<group>"; };
+		0B5BBB571B7C7060003F856D /* VLDStrongPasswordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDStrongPasswordValidator.h; sourceTree = "<group>"; };
+		0B5BBB581B7C7060003F856D /* VLDStrongPasswordValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDStrongPasswordValidator.m; sourceTree = "<group>"; };
+		0B5BBB591B7C7060003F856D /* VLDTextValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDTextValidation.h; sourceTree = "<group>"; };
+		0B5BBB5A1B7C7060003F856D /* VLDTextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDTextValidator.h; sourceTree = "<group>"; };
+		0B5BBB5B1B7C7060003F856D /* ValidationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationKit.h; sourceTree = "<group>"; };
+		0B5BBB5C1B7C7060003F856D /* VLDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDHelpers.h; sourceTree = "<group>"; };
+		0B78BA3B1B70ED3B001B10B2 /* ValidationKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidationKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B78BA3F1B70ED3B001B10B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B78BA401B70ED3B001B10B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B78BA421B70ED3B001B10B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B78BA431B70ED3B001B10B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B8D2A6D1B78FA9A006FB260 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		0B8D2A6E1B78FA9A006FB260 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		0B8D2A701B78FAA6006FB260 /* ExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleView.h; sourceTree = "<group>"; };
+		0B8D2A711B78FAA6006FB260 /* ExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2673CA1B79F1AF0011CAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78BA381B70ED3B001B10B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B66B3F41B7DCF49003DB0C0 /* libValidationKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2673CE1B79F1AF0011CAFA /* ValidationKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB381B7C7060003F856D /* Classes */,
+			);
+			name = ValidationKit;
+			path = ValidationKitLib;
+			sourceTree = "<group>";
+		};
+		0B5BBB381B7C7060003F856D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB5B1B7C7060003F856D /* ValidationKit.h */,
+				0B5BBB5C1B7C7060003F856D /* VLDHelpers.h */,
+				0B5BBB411B7C7060003F856D /* CommonValidators */,
+				0B5BBB4C1B7C7060003F856D /* TextValidators */,
+				0B5BBB461B7C7060003F856D /* TextContainers */,
+				0B5BBB391B7C7060003F856D /* Categories */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		0B5BBB391B7C7060003F856D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB3E1B7C7060003F856D /* VLDCategories.h */,
+				0B5BBB3A1B7C7060003F856D /* NSData+VLDValidation.h */,
+				0B5BBB3B1B7C7060003F856D /* NSData+VLDValidation.m */,
+				0B5BBB3C1B7C7060003F856D /* NSString+VLDValidation.h */,
+				0B5BBB3D1B7C7060003F856D /* NSString+VLDValidation.m */,
+				0B5BBB3F1B7C7060003F856D /* VLDCategoriesHelpers.h */,
+				0B5BBB401B7C7060003F856D /* VLDCategoriesHelpers.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0B5BBB411B7C7060003F856D /* CommonValidators */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB421B7C7060003F856D /* VLDCommonValidation.h */,
+				0B5BBB451B7C7060003F856D /* VLDValidator.h */,
+				0B5BBB431B7C7060003F856D /* VLDDateValidator.h */,
+				0B5BBB441B7C7060003F856D /* VLDDateValidator.m */,
+			);
+			path = CommonValidators;
+			sourceTree = "<group>";
+		};
+		0B5BBB461B7C7060003F856D /* TextContainers */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB471B7C7060003F856D /* VLDTextContainersValidation.h */,
+				0B5BBB481B7C7060003F856D /* VLDTextField.h */,
+				0B5BBB491B7C7060003F856D /* VLDTextField.m */,
+				0B5BBB4A1B7C7060003F856D /* VLDTextView.h */,
+				0B5BBB4B1B7C7060003F856D /* VLDTextView.m */,
+			);
+			path = TextContainers;
+			sourceTree = "<group>";
+		};
+		0B5BBB4C1B7C7060003F856D /* TextValidators */ = {
+			isa = PBXGroup;
+			children = (
+				0B5BBB591B7C7060003F856D /* VLDTextValidation.h */,
+				0B5BBB5A1B7C7060003F856D /* VLDTextValidator.h */,
+				0B5BBB4D1B7C7060003F856D /* VLDBoundaryCharactersValidator.h */,
+				0B5BBB4E1B7C7060003F856D /* VLDBoundaryCharactersValidator.m */,
+				0B5BBB4F1B7C7060003F856D /* VLDBoundaryNumberValidator.h */,
+				0B5BBB501B7C7060003F856D /* VLDBoundaryNumberValidator.m */,
+				0B5BBB511B7C7060003F856D /* VLDEmailValidator.h */,
+				0B5BBB521B7C7060003F856D /* VLDEmailValidator.m */,
+				0B5BBB531B7C7060003F856D /* VLDPhoneNumberValidator.h */,
+				0B5BBB541B7C7060003F856D /* VLDPhoneNumberValidator.m */,
+				0B5BBB551B7C7060003F856D /* VLDRegExpValidator.h */,
+				0B5BBB561B7C7060003F856D /* VLDRegExpValidator.m */,
+				0B5BBB571B7C7060003F856D /* VLDStrongPasswordValidator.h */,
+				0B5BBB581B7C7060003F856D /* VLDStrongPasswordValidator.m */,
+			);
+			path = TextValidators;
+			sourceTree = "<group>";
+		};
+		0B78BA321B70ED3B001B10B2 = {
+			isa = PBXGroup;
+			children = (
+				0B78BA3D1B70ED3B001B10B2 /* ValidationKitExample */,
+				0B2673CE1B79F1AF0011CAFA /* ValidationKit */,
+				0B78BA3C1B70ED3B001B10B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B78BA3C1B70ED3B001B10B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B78BA3B1B70ED3B001B10B2 /* ValidationKitExample.app */,
+				0B2673CD1B79F1AF0011CAFA /* libValidationKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B78BA3D1B70ED3B001B10B2 /* ValidationKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				0B78BA421B70ED3B001B10B2 /* AppDelegate.h */,
+				0B78BA431B70ED3B001B10B2 /* AppDelegate.m */,
+				0B8D2A6D1B78FA9A006FB260 /* ExampleViewController.h */,
+				0B8D2A6E1B78FA9A006FB260 /* ExampleViewController.m */,
+				0B8D2A701B78FAA6006FB260 /* ExampleView.h */,
+				0B8D2A711B78FAA6006FB260 /* ExampleView.m */,
+				0B78BA3E1B70ED3B001B10B2 /* Supporting Files */,
+			);
+			name = ValidationKitExample;
+			path = ValidationKit;
+			sourceTree = "<group>";
+		};
+		0B78BA3E1B70ED3B001B10B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0775071B74D3580096CA76 /* Default-568h@2x.png */,
+				0B78BA3F1B70ED3B001B10B2 /* Info.plist */,
+				0B78BA401B70ED3B001B10B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B5BBBCB1B7CBD17003F856D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5BBB6D1B7C8057003F856D /* ValidationKit.h in Headers */,
+				0B5BBB6E1B7C8057003F856D /* VLDHelpers.h in Headers */,
+				0B5BBB6F1B7C8057003F856D /* VLDCommonValidation.h in Headers */,
+				0B5BBB701B7C8057003F856D /* VLDValidator.h in Headers */,
+				0B5BBB711B7C8057003F856D /* VLDDateValidator.h in Headers */,
+				0B5BBB721B7C8057003F856D /* VLDTextValidation.h in Headers */,
+				0B5BBB731B7C8057003F856D /* VLDTextValidator.h in Headers */,
+				0B5BBB741B7C8057003F856D /* VLDBoundaryCharactersValidator.h in Headers */,
+				0B5BBB751B7C8057003F856D /* VLDBoundaryNumberValidator.h in Headers */,
+				0B5BBB761B7C8057003F856D /* VLDEmailValidator.h in Headers */,
+				0B5BBB771B7C8057003F856D /* VLDPhoneNumberValidator.h in Headers */,
+				0B5BBB781B7C8057003F856D /* VLDRegExpValidator.h in Headers */,
+				0B5BBB791B7C8057003F856D /* VLDStrongPasswordValidator.h in Headers */,
+				0B5BBB7A1B7C8057003F856D /* VLDTextContainersValidation.h in Headers */,
+				0B5BBB7B1B7C8057003F856D /* VLDTextField.h in Headers */,
+				0B5BBB7C1B7C8057003F856D /* VLDTextView.h in Headers */,
+				0B5BBB7D1B7C8057003F856D /* VLDCategories.h in Headers */,
+				0B5BBB7E1B7C8057003F856D /* NSData+VLDValidation.h in Headers */,
+				0B5BBB7F1B7C8057003F856D /* NSString+VLDValidation.h in Headers */,
+				0B5BBB801B7C8057003F856D /* VLDCategoriesHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B2673CC1B79F1AF0011CAFA /* ValidationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2673E21B79F1AF0011CAFA /* Build configuration list for PBXNativeTarget "ValidationKit" */;
+			buildPhases = (
+				0B2673C91B79F1AF0011CAFA /* Sources */,
+				0B2673CA1B79F1AF0011CAFA /* Frameworks */,
+				0B2673CB1B79F1AF0011CAFA /* CopyFiles */,
+				0B5BBBCB1B7CBD17003F856D /* Headers */,
+				0B5BBBCC1B7CBD38003F856D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidationKit;
+			productName = ValidationKitLib;
+			productReference = 0B2673CD1B79F1AF0011CAFA /* libValidationKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0B78BA3A1B70ED3B001B10B2 /* ValidationKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B78BA5E1B70ED3C001B10B2 /* Build configuration list for PBXNativeTarget "ValidationKitExample" */;
+			buildPhases = (
+				0B78BA371B70ED3B001B10B2 /* Sources */,
+				0B78BA381B70ED3B001B10B2 /* Frameworks */,
+				0B78BA391B70ED3B001B10B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B66B3F61B7DCF51003DB0C0 /* PBXTargetDependency */,
+			);
+			name = ValidationKitExample;
+			productName = ValidationKit;
+			productReference = 0B78BA3B1B70ED3B001B10B2 /* ValidationKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B78BA331B70ED3B001B10B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = inostudio;
+				TargetAttributes = {
+					0B2673CC1B79F1AF0011CAFA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0B78BA3A1B70ED3B001B10B2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 0B78BA361B70ED3B001B10B2 /* Build configuration list for PBXProject "ValidationKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B78BA321B70ED3B001B10B2;
+			productRefGroup = 0B78BA3C1B70ED3B001B10B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B78BA3A1B70ED3B001B10B2 /* ValidationKitExample */,
+				0B2673CC1B79F1AF0011CAFA /* ValidationKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B78BA391B70ED3B001B10B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0775081B74D3590096CA76 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B5BBBCC1B7CBD38003F856D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -o pipefail\n\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}\"\n\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2673C91B79F1AF0011CAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5BBB5F1B7C7060003F856D /* VLDCategoriesHelpers.m in Sources */,
+				0B5BBB681B7C7060003F856D /* VLDStrongPasswordValidator.m in Sources */,
+				0B5BBB611B7C7060003F856D /* VLDTextField.m in Sources */,
+				0B5BBB641B7C7060003F856D /* VLDBoundaryNumberValidator.m in Sources */,
+				0B5BBB621B7C7060003F856D /* VLDTextView.m in Sources */,
+				0B5BBB631B7C7060003F856D /* VLDBoundaryCharactersValidator.m in Sources */,
+				0B5BBB601B7C7060003F856D /* VLDDateValidator.m in Sources */,
+				0B5BBB651B7C7060003F856D /* VLDEmailValidator.m in Sources */,
+				0B5BBB671B7C7060003F856D /* VLDRegExpValidator.m in Sources */,
+				0B5BBB661B7C7060003F856D /* VLDPhoneNumberValidator.m in Sources */,
+				0B5BBB5D1B7C7060003F856D /* NSData+VLDValidation.m in Sources */,
+				0B5BBB5E1B7C7060003F856D /* NSString+VLDValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78BA371B70ED3B001B10B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D2A6F1B78FA9A006FB260 /* ExampleViewController.m in Sources */,
+				0B8D2A721B78FAA6006FB260 /* ExampleView.m in Sources */,
+				0B78BA441B70ED3B001B10B2 /* AppDelegate.m in Sources */,
+				0B78BA411B70ED3B001B10B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B66B3F61B7DCF51003DB0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2673CC1B79F1AF0011CAFA /* ValidationKit */;
+			targetProxy = 0B66B3F51B7DCF51003DB0C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B2673DE1B79F1AF0011CAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		0B2673DF1B79F1AF0011CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		0B78BA5C1B70ED3C001B10B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B78BA5D1B70ED3C001B10B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B78BA5F1B70ED3C001B10B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValidationKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B78BA601B70ED3C001B10B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValidationKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2673E21B79F1AF0011CAFA /* Build configuration list for PBXNativeTarget "ValidationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2673DE1B79F1AF0011CAFA /* Debug */,
+				0B2673DF1B79F1AF0011CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B78BA361B70ED3B001B10B2 /* Build configuration list for PBXProject "ValidationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78BA5C1B70ED3C001B10B2 /* Debug */,
+				0B78BA5D1B70ED3C001B10B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B78BA5E1B70ED3C001B10B2 /* Build configuration list for PBXNativeTarget "ValidationKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78BA5F1B70ED3C001B10B2 /* Debug */,
+				0B78BA601B70ED3C001B10B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B78BA331B70ED3B001B10B2 /* Project object */;
+}
