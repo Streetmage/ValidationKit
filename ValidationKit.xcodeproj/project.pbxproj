@@ -12,18 +12,38 @@
 		0B66B40F1B7E1ECA003DB0C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B40A1B7E1ECA003DB0C0 /* AppDelegate.m */; };
 		0B66B4101B7E1ECA003DB0C0 /* ExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B40C1B7E1ECA003DB0C0 /* ExampleView.m */; };
 		0B66B4111B7E1ECA003DB0C0 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B40E1B7E1ECA003DB0C0 /* ExampleViewController.m */; };
-		0B66B4361B7E1EFC003DB0C0 /* NSData+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4141B7E1EFB003DB0C0 /* NSData+VLDValidation.m */; };
-		0B66B4371B7E1EFC003DB0C0 /* NSString+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4161B7E1EFB003DB0C0 /* NSString+VLDValidation.m */; };
-		0B66B4381B7E1EFC003DB0C0 /* VLDCategoriesHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4191B7E1EFB003DB0C0 /* VLDCategoriesHelpers.m */; };
-		0B66B4391B7E1EFC003DB0C0 /* VLDDateValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B41D1B7E1EFB003DB0C0 /* VLDDateValidator.m */; };
-		0B66B43A1B7E1EFC003DB0C0 /* VLDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4221B7E1EFB003DB0C0 /* VLDTextField.m */; };
-		0B66B43B1B7E1EFC003DB0C0 /* VLDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4241B7E1EFB003DB0C0 /* VLDTextView.m */; };
-		0B66B43C1B7E1EFC003DB0C0 /* VLDBoundaryCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4271B7E1EFB003DB0C0 /* VLDBoundaryCharactersValidator.m */; };
-		0B66B43D1B7E1EFC003DB0C0 /* VLDBoundaryNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4291B7E1EFB003DB0C0 /* VLDBoundaryNumberValidator.m */; };
-		0B66B43E1B7E1EFC003DB0C0 /* VLDEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42B1B7E1EFB003DB0C0 /* VLDEmailValidator.m */; };
-		0B66B43F1B7E1EFC003DB0C0 /* VLDPhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42D1B7E1EFB003DB0C0 /* VLDPhoneNumberValidator.m */; };
-		0B66B4401B7E1EFC003DB0C0 /* VLDRegExpValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42F1B7E1EFB003DB0C0 /* VLDRegExpValidator.m */; };
-		0B66B4411B7E1EFC003DB0C0 /* VLDStrongPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4311B7E1EFB003DB0C0 /* VLDStrongPasswordValidator.m */; };
+		0B66B4421B7E1F8B003DB0C0 /* NSData+VLDValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4131B7E1EFB003DB0C0 /* NSData+VLDValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4431B7E1F8B003DB0C0 /* NSString+VLDValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4151B7E1EFB003DB0C0 /* NSString+VLDValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4441B7E1F8B003DB0C0 /* VLDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4171B7E1EFB003DB0C0 /* VLDCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4451B7E1F8B003DB0C0 /* VLDCategoriesHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4181B7E1EFB003DB0C0 /* VLDCategoriesHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4461B7E1F8B003DB0C0 /* VLDCommonValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B41B1B7E1EFB003DB0C0 /* VLDCommonValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4471B7E1F8B003DB0C0 /* VLDDateValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B41C1B7E1EFB003DB0C0 /* VLDDateValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4481B7E1F8B003DB0C0 /* VLDValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B41E1B7E1EFB003DB0C0 /* VLDValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4491B7E1F8B003DB0C0 /* VLDTextContainersValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4201B7E1EFB003DB0C0 /* VLDTextContainersValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44A1B7E1F8B003DB0C0 /* VLDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4211B7E1EFB003DB0C0 /* VLDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44B1B7E1F8B003DB0C0 /* VLDTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4231B7E1EFB003DB0C0 /* VLDTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44C1B7E1F8B003DB0C0 /* VLDBoundaryCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4261B7E1EFB003DB0C0 /* VLDBoundaryCharactersValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44D1B7E1F8B003DB0C0 /* VLDBoundaryNumberValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4281B7E1EFB003DB0C0 /* VLDBoundaryNumberValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44E1B7E1F8B003DB0C0 /* VLDEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B42A1B7E1EFB003DB0C0 /* VLDEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B44F1B7E1F8B003DB0C0 /* VLDPhoneNumberValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B42C1B7E1EFB003DB0C0 /* VLDPhoneNumberValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4501B7E1F8B003DB0C0 /* VLDRegExpValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B42E1B7E1EFB003DB0C0 /* VLDRegExpValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4511B7E1F8B003DB0C0 /* VLDStrongPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4301B7E1EFB003DB0C0 /* VLDStrongPasswordValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4521B7E1F8B003DB0C0 /* VLDTextValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4321B7E1EFB003DB0C0 /* VLDTextValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4531B7E1F8B003DB0C0 /* VLDTextValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4331B7E1EFB003DB0C0 /* VLDTextValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4541B7E1F8B003DB0C0 /* ValidationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4341B7E1EFC003DB0C0 /* ValidationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4551B7E1F8B003DB0C0 /* VLDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B66B4351B7E1EFC003DB0C0 /* VLDHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66B4561B7E21A3003DB0C0 /* NSData+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4141B7E1EFB003DB0C0 /* NSData+VLDValidation.m */; };
+		0B66B4571B7E21A3003DB0C0 /* NSString+VLDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4161B7E1EFB003DB0C0 /* NSString+VLDValidation.m */; };
+		0B66B4581B7E21A3003DB0C0 /* VLDCategoriesHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4191B7E1EFB003DB0C0 /* VLDCategoriesHelpers.m */; };
+		0B66B4591B7E21A3003DB0C0 /* VLDDateValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B41D1B7E1EFB003DB0C0 /* VLDDateValidator.m */; };
+		0B66B45A1B7E21A3003DB0C0 /* VLDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4221B7E1EFB003DB0C0 /* VLDTextField.m */; };
+		0B66B45B1B7E21A3003DB0C0 /* VLDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4241B7E1EFB003DB0C0 /* VLDTextView.m */; };
+		0B66B45C1B7E21A3003DB0C0 /* VLDBoundaryCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4271B7E1EFB003DB0C0 /* VLDBoundaryCharactersValidator.m */; };
+		0B66B45D1B7E21A3003DB0C0 /* VLDBoundaryNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4291B7E1EFB003DB0C0 /* VLDBoundaryNumberValidator.m */; };
+		0B66B45E1B7E21A3003DB0C0 /* VLDEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42B1B7E1EFB003DB0C0 /* VLDEmailValidator.m */; };
+		0B66B45F1B7E21A3003DB0C0 /* VLDPhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42D1B7E1EFB003DB0C0 /* VLDPhoneNumberValidator.m */; };
+		0B66B4601B7E21A3003DB0C0 /* VLDRegExpValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B42F1B7E1EFB003DB0C0 /* VLDRegExpValidator.m */; };
+		0B66B4611B7E21A3003DB0C0 /* VLDStrongPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B66B4311B7E1EFB003DB0C0 /* VLDStrongPasswordValidator.m */; };
 		0B78BA411B70ED3B001B10B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78BA401B70ED3B001B10B2 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -117,12 +137,12 @@
 		0B2673CE1B79F1AF0011CAFA /* ValidationKit */ = {
 			isa = PBXGroup;
 			children = (
-				0B66B4121B7E1EFB003DB0C0 /* Categories */,
-				0B66B41A1B7E1EFB003DB0C0 /* CommonValidators */,
-				0B66B41F1B7E1EFB003DB0C0 /* TextContainers */,
-				0B66B4251B7E1EFB003DB0C0 /* TextValidators */,
 				0B66B4341B7E1EFC003DB0C0 /* ValidationKit.h */,
 				0B66B4351B7E1EFC003DB0C0 /* VLDHelpers.h */,
+				0B66B41A1B7E1EFB003DB0C0 /* CommonValidators */,
+				0B66B4251B7E1EFB003DB0C0 /* TextValidators */,
+				0B66B41F1B7E1EFB003DB0C0 /* TextContainers */,
+				0B66B4121B7E1EFB003DB0C0 /* Categories */,
 			);
 			name = ValidationKit;
 			path = ValidationKitLib;
@@ -131,11 +151,11 @@
 		0B66B4121B7E1EFB003DB0C0 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				0B66B4171B7E1EFB003DB0C0 /* VLDCategories.h */,
 				0B66B4131B7E1EFB003DB0C0 /* NSData+VLDValidation.h */,
 				0B66B4141B7E1EFB003DB0C0 /* NSData+VLDValidation.m */,
 				0B66B4151B7E1EFB003DB0C0 /* NSString+VLDValidation.h */,
 				0B66B4161B7E1EFB003DB0C0 /* NSString+VLDValidation.m */,
-				0B66B4171B7E1EFB003DB0C0 /* VLDCategories.h */,
 				0B66B4181B7E1EFB003DB0C0 /* VLDCategoriesHelpers.h */,
 				0B66B4191B7E1EFB003DB0C0 /* VLDCategoriesHelpers.m */,
 			);
@@ -171,20 +191,20 @@
 		0B66B4251B7E1EFB003DB0C0 /* TextValidators */ = {
 			isa = PBXGroup;
 			children = (
+				0B66B4321B7E1EFB003DB0C0 /* VLDTextValidation.h */,
+				0B66B4331B7E1EFB003DB0C0 /* VLDTextValidator.h */,
 				0B66B4261B7E1EFB003DB0C0 /* VLDBoundaryCharactersValidator.h */,
 				0B66B4271B7E1EFB003DB0C0 /* VLDBoundaryCharactersValidator.m */,
 				0B66B4281B7E1EFB003DB0C0 /* VLDBoundaryNumberValidator.h */,
 				0B66B4291B7E1EFB003DB0C0 /* VLDBoundaryNumberValidator.m */,
+				0B66B42E1B7E1EFB003DB0C0 /* VLDRegExpValidator.h */,
+				0B66B42F1B7E1EFB003DB0C0 /* VLDRegExpValidator.m */,
 				0B66B42A1B7E1EFB003DB0C0 /* VLDEmailValidator.h */,
 				0B66B42B1B7E1EFB003DB0C0 /* VLDEmailValidator.m */,
 				0B66B42C1B7E1EFB003DB0C0 /* VLDPhoneNumberValidator.h */,
 				0B66B42D1B7E1EFB003DB0C0 /* VLDPhoneNumberValidator.m */,
-				0B66B42E1B7E1EFB003DB0C0 /* VLDRegExpValidator.h */,
-				0B66B42F1B7E1EFB003DB0C0 /* VLDRegExpValidator.m */,
 				0B66B4301B7E1EFB003DB0C0 /* VLDStrongPasswordValidator.h */,
 				0B66B4311B7E1EFB003DB0C0 /* VLDStrongPasswordValidator.m */,
-				0B66B4321B7E1EFB003DB0C0 /* VLDTextValidation.h */,
-				0B66B4331B7E1EFB003DB0C0 /* VLDTextValidator.h */,
 			);
 			name = TextValidators;
 			path = ValidationKit/TextValidators;
@@ -240,6 +260,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B66B4421B7E1F8B003DB0C0 /* NSData+VLDValidation.h in Headers */,
+				0B66B4431B7E1F8B003DB0C0 /* NSString+VLDValidation.h in Headers */,
+				0B66B4441B7E1F8B003DB0C0 /* VLDCategories.h in Headers */,
+				0B66B4451B7E1F8B003DB0C0 /* VLDCategoriesHelpers.h in Headers */,
+				0B66B4461B7E1F8B003DB0C0 /* VLDCommonValidation.h in Headers */,
+				0B66B4471B7E1F8B003DB0C0 /* VLDDateValidator.h in Headers */,
+				0B66B4481B7E1F8B003DB0C0 /* VLDValidator.h in Headers */,
+				0B66B4491B7E1F8B003DB0C0 /* VLDTextContainersValidation.h in Headers */,
+				0B66B44A1B7E1F8B003DB0C0 /* VLDTextField.h in Headers */,
+				0B66B44B1B7E1F8B003DB0C0 /* VLDTextView.h in Headers */,
+				0B66B44C1B7E1F8B003DB0C0 /* VLDBoundaryCharactersValidator.h in Headers */,
+				0B66B44D1B7E1F8B003DB0C0 /* VLDBoundaryNumberValidator.h in Headers */,
+				0B66B44E1B7E1F8B003DB0C0 /* VLDEmailValidator.h in Headers */,
+				0B66B44F1B7E1F8B003DB0C0 /* VLDPhoneNumberValidator.h in Headers */,
+				0B66B4501B7E1F8B003DB0C0 /* VLDRegExpValidator.h in Headers */,
+				0B66B4511B7E1F8B003DB0C0 /* VLDStrongPasswordValidator.h in Headers */,
+				0B66B4521B7E1F8B003DB0C0 /* VLDTextValidation.h in Headers */,
+				0B66B4531B7E1F8B003DB0C0 /* VLDTextValidator.h in Headers */,
+				0B66B4541B7E1F8B003DB0C0 /* ValidationKit.h in Headers */,
+				0B66B4551B7E1F8B003DB0C0 /* VLDHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B66B4561B7E21A3003DB0C0 /* NSData+VLDValidation.m in Sources */,
+				0B66B4571B7E21A3003DB0C0 /* NSString+VLDValidation.m in Sources */,
+				0B66B4581B7E21A3003DB0C0 /* VLDCategoriesHelpers.m in Sources */,
+				0B66B4591B7E21A3003DB0C0 /* VLDDateValidator.m in Sources */,
+				0B66B45A1B7E21A3003DB0C0 /* VLDTextField.m in Sources */,
+				0B66B45B1B7E21A3003DB0C0 /* VLDTextView.m in Sources */,
+				0B66B45C1B7E21A3003DB0C0 /* VLDBoundaryCharactersValidator.m in Sources */,
+				0B66B45D1B7E21A3003DB0C0 /* VLDBoundaryNumberValidator.m in Sources */,
+				0B66B45E1B7E21A3003DB0C0 /* VLDEmailValidator.m in Sources */,
+				0B66B45F1B7E21A3003DB0C0 /* VLDPhoneNumberValidator.m in Sources */,
+				0B66B4601B7E21A3003DB0C0 /* VLDRegExpValidator.m in Sources */,
+				0B66B4611B7E21A3003DB0C0 /* VLDStrongPasswordValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,22 +410,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B66B4361B7E1EFC003DB0C0 /* NSData+VLDValidation.m in Sources */,
-				0B66B4381B7E1EFC003DB0C0 /* VLDCategoriesHelpers.m in Sources */,
-				0B66B4371B7E1EFC003DB0C0 /* NSString+VLDValidation.m in Sources */,
-				0B66B4411B7E1EFC003DB0C0 /* VLDStrongPasswordValidator.m in Sources */,
-				0B66B43E1B7E1EFC003DB0C0 /* VLDEmailValidator.m in Sources */,
-				0B66B43C1B7E1EFC003DB0C0 /* VLDBoundaryCharactersValidator.m in Sources */,
-				0B66B43F1B7E1EFC003DB0C0 /* VLDPhoneNumberValidator.m in Sources */,
 				0B66B40F1B7E1ECA003DB0C0 /* AppDelegate.m in Sources */,
 				0B66B4111B7E1ECA003DB0C0 /* ExampleViewController.m in Sources */,
-				0B66B43A1B7E1EFC003DB0C0 /* VLDTextField.m in Sources */,
 				0B78BA411B70ED3B001B10B2 /* main.m in Sources */,
-				0B66B4401B7E1EFC003DB0C0 /* VLDRegExpValidator.m in Sources */,
-				0B66B43D1B7E1EFC003DB0C0 /* VLDBoundaryNumberValidator.m in Sources */,
 				0B66B4101B7E1ECA003DB0C0 /* ExampleView.m in Sources */,
-				0B66B43B1B7E1EFC003DB0C0 /* VLDTextView.m in Sources */,
-				0B66B4391B7E1EFC003DB0C0 /* VLDDateValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
