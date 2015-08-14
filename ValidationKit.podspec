@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Streetmage/ValidationKit.git", :tag => "0.0.2" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "ValidationKit/ValidationKit.h", "ValidationKit/VLDHelpers.h", "ValidationKit/CommonValidators/**/*.{h,m}", "ValidationKit/CommonValidators/**/*.{h,m}", "ValidationKit/TextValidators/**/*.{h,m}", "ValidationKit/TextContainers/**/*.{h,m}", "ValidationKit/Categories/**/*.{h,m}"
 
   s.framework  = "UIKit"
 
