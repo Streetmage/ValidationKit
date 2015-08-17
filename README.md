@@ -1,6 +1,6 @@
 # ValidationKit
 
-## Developed by Inostudio Solutions
+## Developed by <a href="http://www.inostudio.com/">INOSTUDIO</a> 
 
 ValidationKit is a framework for checking data input on various constrainsts
 
@@ -29,4 +29,4 @@ pod "ValidationKit", "0.0.3"
 
 6. In the project target under "Build Phases" search for "Link Binary With Libraries" list and add "libValidationKit.a" static library.
 
-7. Place "#import <ValidationKit/ValidationKit.h>" where you would like to use it.
+7. Place "#import &lt;ValidationKit/ValidationKit.h&gt;" where you would like to use it.
