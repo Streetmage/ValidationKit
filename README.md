@@ -1,6 +1,6 @@
 # ValidationKit
 
-## Developed by Inostudio Solutions LLC
+## Developed by Inostudio Solutions
 
 ValidationKit is a framework for checking data input on various constrainsts
 
