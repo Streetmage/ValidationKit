@@ -167,9 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				0B66B41B1B7E1EFB003DB0C0 /* VLDCommonValidation.h */,
+				0B66B41E1B7E1EFB003DB0C0 /* VLDValidator.h */,
 				0B66B41C1B7E1EFB003DB0C0 /* VLDDateValidator.h */,
 				0B66B41D1B7E1EFB003DB0C0 /* VLDDateValidator.m */,
-				0B66B41E1B7E1EFB003DB0C0 /* VLDValidator.h */,
 			);
 			name = CommonValidators;
 			path = ValidationKit/CommonValidators;

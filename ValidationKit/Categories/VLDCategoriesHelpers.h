@@ -25,7 +25,7 @@
 #define VLDSetDefaultTotalDataLimit(lengthLimit) [VLDCategoriesHelpers setDefaultTotalDataLimit:lengthLimit]
 
 #define VLDValidateArrayForDefaultLengthLimit(array) [VLDCategoriesHelpers validateArrayObjects:array]
-#define VLDValidateArrayForTotalDataLenfth(array) [VLDCategoriesHelpers validateArrayFoTotalDataLength:array]
+#define VLDValidateArrayForTotalDataLength(array) [VLDCategoriesHelpers validateArrayForTotalDataLength:array]
 
 // |VLDCategoriesHelpers| validates instances of |NSString| and |NSData|
 // using categories methods provided by the kit
@@ -38,6 +38,8 @@
 + (BOOL)validateArrayObjects:(NSArray *)array;
 
 // Validates total data length of all data objects in array
+// Only primite types are used to compare with total data limit
+// like |NSNumber|, |NSString|, and |NSData|
 + (BOOL)validateArrayForTotalDataLength:(NSArray *)array;
 
 @end

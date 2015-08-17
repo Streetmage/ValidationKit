@@ -51,11 +51,18 @@ static NSUInteger defaultTotalDataLimit = VLD_TB;
 }
 
 + (BOOL)validateArrayForTotalDataLength:(NSArray *)array {
-    NSUInteger totalDataLength = 0;
-    for (id object in array) {
-        totalDataLength += sizeof(object);
-    }
-    return totalDataLength <= defaultTotalDataLimit;
+    NSPredicate *filterPredicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings) {
+        if ([evaluatedObject isKindOfClass:[NSNumber class]] ||
+            [evaluatedObject isKindOfClass:[NSString class]] ||
+            [evaluatedObject isKindOfClass:[NSData class]]) {
+            return YES;
+        }
+        return NO;
+    }];
+    NSArray *onlyPrimitiveObjectsArray = [array filteredArrayUsingPredicate:filterPredicate];
+    NSString *joinedComponents = [onlyPrimitiveObjectsArray componentsJoinedByString:nil];
+    NSData *joinedComponentsData = [joinedComponents dataUsingEncoding:NSUTF8StringEncoding];
+    return joinedComponentsData.length <= defaultTotalDataLimit;
 }
 
 @end
