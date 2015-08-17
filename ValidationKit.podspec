@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ValidationKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ValidationKit is a framework for checking data input on various constrainsts."
   s.homepage     = "https://github.com/Streetmage/ValidationKit"
   s.license      = "MIT"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/Streetmage/ValidationKit.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/Streetmage/ValidationKit.git", :tag => "0.0.3" }
 
   s.source_files  = "ValidationKit/ValidationKit.h", "ValidationKit/VLDHelpers.h", "ValidationKit/CommonValidators/**/*.{h,m}", "ValidationKit/CommonValidators/**/*.{h,m}", "ValidationKit/TextValidators/**/*.{h,m}", "ValidationKit/TextContainers/**/*.{h,m}", "ValidationKit/Categories/**/*.{h,m}"
 
