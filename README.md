@@ -12,7 +12,7 @@ ValidationKit is a framework for checking data input on various constrainsts
 
 ```ruby
 platform :ios, '7.0'
-pod "ValidationKit", "0.0.5"
+pod "ValidationKit", "0.0.6"
 ```
 
 ## Adding as subproject
