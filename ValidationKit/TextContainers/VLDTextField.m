@@ -129,6 +129,7 @@ static NSString *const VLDTextObserverKey = @"text";
     if (objects) {
         NSMutableArray *mutableValidators = [NSMutableArray arrayWithArray:self.textValidators];
         [mutableValidators addObjectsFromArray:[objects copy]];
+        self.textValidators = mutableValidators;
     }
 }
 

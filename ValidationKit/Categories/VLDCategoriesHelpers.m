@@ -60,7 +60,7 @@ static NSUInteger defaultTotalDataLimit = VLD_TB;
         return NO;
     }];
     NSArray *onlyPrimitiveObjectsArray = [array filteredArrayUsingPredicate:filterPredicate];
-    NSString *joinedComponents = [onlyPrimitiveObjectsArray componentsJoinedByString:nil];
+    NSString *joinedComponents = [onlyPrimitiveObjectsArray componentsJoinedByString:[NSString string]];
     NSData *joinedComponentsData = [joinedComponents dataUsingEncoding:NSUTF8StringEncoding];
     return joinedComponentsData.length <= defaultTotalDataLimit;
 }
