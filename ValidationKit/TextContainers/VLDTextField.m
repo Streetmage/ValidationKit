@@ -57,34 +57,25 @@ static NSString *const VLDTextObserverKey = @"text";
     return self;
 }
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        [self setup];
+    }
+    
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        
-        _usesDefaultCharatersLimit = YES;
-        
-        [self addObserver:self
-               forKeyPath:VLDTextObserverKey
-                  options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
-                  context:NULL];
-        
-        [self addTarget:self
-                 action:@selector(onTextFieldDidChange:)
-       forControlEvents:UIControlEventEditingChanged];
-        
+        [self setup];
     }
     return self;
 }
 
-- (void)dealloc {
-    @try {
-        [self removeObserver:self forKeyPath:VLDTextObserverKey];
-    }
-    @catch (NSException *exception) {
-        VLDLog(@"%@ observer haven't been removed correctly", [self class]);
-    }
-    
-}
+
 
 #pragma mark - Accessors
 
@@ -134,6 +125,31 @@ static NSString *const VLDTextObserverKey = @"text";
 }
 
 #pragma mark - Private Methods
+
+- (void)setup {
+    
+    _usesDefaultCharatersLimit = YES;
+    
+    [self addObserver:self
+           forKeyPath:VLDTextObserverKey
+              options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
+              context:nil];
+    
+    [self addTarget:self
+             action:@selector(onTextFieldDidChange:)
+   forControlEvents:UIControlEventEditingChanged];
+    
+}
+
+- (void)dealloc {
+    @try {
+        [self removeObserver:self forKeyPath:VLDTextObserverKey];
+    }
+    @catch (NSException *exception) {
+        VLDLog(@"%@ observer haven't been removed correctly", [self class]);
+    }
+    
+}
 
 - (void)setupWithValidatorTypeMask:(VLDTextFieldValidatorTypeMask)validatorTypeMask {
     id <VLDTextValidator> predefinedValidator = nil;

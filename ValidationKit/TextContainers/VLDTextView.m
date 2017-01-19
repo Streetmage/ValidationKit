@@ -41,22 +41,20 @@ static NSString *const VLDTextObserverKey = @"text";
 
 #pragma mark - Initializers
 
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        [self setup];
+    }
+    
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        
-        _usesDefaultCharatersLimit = YES;
-        
-        [self addObserver:self
-               forKeyPath:VLDTextObserverKey
-                  options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
-                  context:NULL];
-        
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(onTextViewDidChange:)
-                                                     name:UITextViewTextDidChangeNotification
-                                                   object:self];
-        
+        [self setup];
     }
     return self;
 }
@@ -118,6 +116,22 @@ static NSString *const VLDTextObserverKey = @"text";
 }
 
 #pragma mark - Private Methods
+
+- (void)setup {
+    
+    _usesDefaultCharatersLimit = YES;
+    
+    [self addObserver:self
+           forKeyPath:VLDTextObserverKey
+              options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
+              context:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(onTextViewDidChange:)
+                                                 name:UITextViewTextDidChangeNotification
+                                               object:self];
+    
+}
 
 - (void)onTextViewDidChange:(NSNotification *)notification {
     [self rollbackTextIfReachedCharatersLimit:notification.object];
